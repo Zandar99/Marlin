@@ -1,0 +1,27 @@
+
+
+
+
+Configuration_adv.h
+eanbled features:
+HOST_ACTION_COMMANDS
+CANCEL_OBJECTS
+
+FOR CRTOUCH
+enable 
+PROBE_OFFSET_WIZARD
+
+configuration.h
+enabled feature:
+MESH_BED_LEVELING
+RESTORE_LEVELING_AFTER_G28
+
+to enable crtouch
+enable
+BLTOUCH
+USE_PROBE_FOR_Z_HOMING
+verify NOZZLE_TO_PROBE_OFFSET
+AUTO_BED_LEVING_BILINEAR
+Z_SAFE_HOMING
+
+disable Z_MIN_PROBE_USES_Z_MIN_ENDSTOP_PIN
